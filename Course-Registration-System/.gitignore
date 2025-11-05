@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+# Ignore application configuration
+src/main/resources/application.properties
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore build outputs
+target/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
